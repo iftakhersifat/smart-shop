@@ -44,7 +44,6 @@ fetch("data/reviews.json")
         showSlide(current);
       }
     });
-  })
-  .catch((err) => { console.error("Error loading reviews:", err);
+  }).catch((err) => { console.error("Error loading reviews:", err);
     document.getElementById("reviewsCarousel").innerHTML ="<p class='text-center py-10 text-red-500'>Failed to load reviews.</p>";
   });
