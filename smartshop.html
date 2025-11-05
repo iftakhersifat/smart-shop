@@ -12,6 +12,51 @@
     <title>Smart-Shop</title>
 </head>
 <body>
+
+    <!-- navbar section -->
+    <div class="sticky top-0 z-50 bg-base-100 shadow-sm">
+    <div class="navbar max-w-6xl mx-auto px-6 md:px-6 lg:px-0">
+    <div class="navbar-start">
+      <div class="dropdown">
+        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M4 6h16M4 12h8m-8 6h16" />
+          </svg>
+        </div>
+        <ul tabindex="-1" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+          <!-- for small and medium device links -->
+          <li><a href="#home" class="hover:text-[#0ea5a4]">Home</a></li>
+          <li><a href="#products" class="hover:text-[#0ea5a4]">Products</a></li>
+          <li><a href="#reviews" class="hover:text-[#0ea5a4]">Reviews</a></li>
+          <li><a href="#contact" class="hover:text-[#0ea5a4]">Contact</a></li>
+        </ul>
+      </div>
+      <h1 class="font-bold text-[#0ea5a4] text-xl">SmartShop</h1>
+    </div>
+
+    <div class="navbar-center hidden lg:flex">
+      <ul class="menu menu-horizontal px-1">
+        <!-- for large device links -->
+        <li><a href="#home" class="hover:text-[#0ea5a4]">Home</a></li>
+        <li><a href="#products" class="hover:text-[#0ea5a4]">Products</a></li>
+        <li><a href="#reviews" class="hover:text-[#0ea5a4]">Reviews</a></li>
+        <li><a href="#contact" class="hover:text-[#0ea5a4]">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="navbar-end flex items-center gap-4">
+    <!-- current balance -->
+    <button id="navBalanceContainer" class="btn btn-sm bg-teal-500 border-none hover:bg-[#0c8f8c] text-white rounded-full px-4 text-sm font-semibold">Balance: <span id="navBalance">1000</span> BDT
+    </button>
+
+    <!-- cart button -->
+    <button id="navCartBtn" class="relative flex items-center gap-2 bg-white border border-gray-300 rounded-full px-4 py-2 hover:bg-teal-50 transition-all shadow-sm">
+    <i class="fa-solid fa-cart-shopping text-gray-700 text-lg"></i><span id="cartCount" class="absolute -top-2 -right-2 bg-[#0ea5a4] text-white text-xs font-bold w-5 h-5 flex items-center justify-center rounded-full">
+    0</span></button>
+    </div>
+    </div>
+    </div>
     
 </body>
 </html>
