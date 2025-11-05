@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Sophia Lee",
+    "comment": "Amazing quality! The products exceeded my expectations and delivery was very quick.",
+    "rating": 5,
+    "date": "2025-10-20",
+    "image": "assets/review-1.jpg"
+  },
+  {
+    "name": "Michael Brown",
+    "comment": "Very satisfied with the service. Packaging was neat and items arrived on time.",
+    "rating": 4,
+    "date": "2025-10-18",
+    "image": "assets/review-2.png"
+  },
+  {
+    "name": "Mitchell Johnson",
+    "comment": "Good value for money. Will definitely shop again. Thanks SmartShop!",
+    "rating": 5,
+    "date": "2025-10-15",
+    "image": "assets/review-3.png"
+  },
+  {
+    "name": "Liam Davis",
+    "comment": "Excellent customer support and fantastic quality. Highly recommend!",
+    "rating": 5,
+    "date": "2025-10-12",
+    "image": "assets/review-4.png"
+  }
+]
