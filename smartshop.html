@@ -58,14 +58,40 @@
     </div>
     </div>
 
+    <!-- contact section -->
+    <div id="contact" class="max-w-6xl mx-auto px-6 lg:px-0 my-20 scroll-mt-24">
+    <h2 class="text-3xl md:text-4xl font-bold text-center text-gray-800 mb-8">Contact Us <i class="fa-solid fa-address-book"></i></h2>
+  
+    <form id="contactForm" class="max-w-xl mx-auto space-y-4 bg-white p-6 rounded-lg shadow-md">
+
+    <!-- name section -->
+    <input type="text" id="contactName" placeholder="Your Name" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal-500" required>
+
+    <!-- email section -->
+    <input type="email" id="contactEmail" placeholder="Your Email" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal-500" required>
+
+    <!-- text section -->
+    <textarea id="contactMessage" rows="4" placeholder="Your Message" class="w-full border border-gray-300 rounded-lg px-4 py-3 focus:outline-none focus:ring-2 focus:ring-teal-500" required></textarea>
+
+    <!-- submit button -->
+    <button type="submit" class="btn bg-[#0ea5a4] border-none hover:bg-[#0c8f8c] text-white w-full">Send Message</button>
+
+    <!-- show msg -->
+    <p id="contactMsg" class="text-center text-green-600 font-semibold mt-2"></p>
+    </form>
+    </div>
+
     <!-- footer section -->
     <div class="mt-16 bg-gray-900 text-gray-300">
     <div class="max-w-6xl mx-auto px-6 lg:px-0 py-10 flex flex-col md:flex-row justify-between items-start md:items-center gap-8">
     
+    <!-- title section -->
     <div>
     <h3 class="text-2xl font-bold text-[#0ea5a4]">SmartShop</h3>
     <p class="text-sm mt-1">© <span id="year"></span> SmartShop. All rights reserved.</p>
     </div>
+
+    <!-- link section -->
     <div class="flex flex-wrap gap-6 text-sm font-medium">
     <a href="#home" class="hover:text-[#0ea5a4]">Home</a>
     <a href="#products" class="hover:text-[#0ea5a4]">Products</a>
@@ -73,6 +99,7 @@
     <a href="#contact" class="hover:text-[#0ea5a4]">Contact</a>
     </div>
 
+    <!-- button section -->
     <div>
     <button id="backToTop" class="btn btn-sm bg-[#0ea5a4] border-none hover:bg-[#0c8f8c] text-white rounded-full px-4">Back to Top</button>
     </div>
